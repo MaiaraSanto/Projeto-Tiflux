@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Lista de Funcionalidades</h1>
+  </header>
+<main>
+  <div class="button-add">
+    <a href="cadastro.html"><button>Adicionar</button></a>
+  </div>
+<div class="list-form">
+<table style="width: 70%; text-align: center; margin: 0;">
+  <thead>
+    <th>Funcionalidade</th>
+    <th>Descriçao</th>
+    <th>Data de cadastro</th>
+    <th>Atualizaçao</th>
+    <th colspan="2">Votos</th>
+  </thead>
+
+  <tbody class="user tbody">
+    <tr>
+      <th class="pedidos">Pedidos</th>
+      <td><input type="text" /></td>
+      <td class="criacao" name="dtcriacao"></td>
+      <td></td>
+      <td class="positivo">
+        <div class="acrescentar numberAcrescentar"></div>
+        <i class="fas fa-thumbs-up fa-2x" style="color: green"></i>
+
+      </td>
+
+      <td class="negativo">
+        <div class="diminuir numberDiminuir"></div>
+        <i class="fas fa-times-circle fa-2x" style="color: red"></i>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</main> 
+
+
+
+<!--Js-->      
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/7ec0079084.js" crossorigin="anonymous"></script>
+</body>
+</html>
