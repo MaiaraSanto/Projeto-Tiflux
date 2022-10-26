@@ -2,7 +2,7 @@
 
 ***
 
-- Tela de Cadastro feito em HTML CSS e Java Script
+- Tela de Cadastro feito em HTML CSS e Java Script.
 
 ***
 
